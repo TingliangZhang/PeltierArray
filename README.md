@@ -15,7 +15,25 @@ JST丨常用系列和型号选型推荐大全
 
 https://www.szlcsc.com/info/13106.html
 
-选择 **PH系列 插座 1\*4P 间距2mm 卧插** B4B-PH-SM4-TB(LF)
+一开始选择 **PH系列 插座 1\*4P 间距2mm 卧插** B4B-PH-SM4-TB(LF)
+
+后更改方案为
+
+
+
+电源接口
+
+DC头：**DC连接器 DC-002-2.0A-1.3 DC插座 W11.4XD5.0XH7.4,内芯1.3,2A 12V**
+
+https://item.szlcsc.com/353351.html
+
+可能要稍稍掰弯
+
+
+
+发光二极管
+
+LED灯绿_Iv=112-285_λd=520-535 二极管_发光二极管
 
 
 
