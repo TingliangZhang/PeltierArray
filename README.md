@@ -109,3 +109,27 @@ https://forum.kicad.info/t/how-to-duplicate-a-pcb-layout-in-kicad-5/12909
 https://forum.kicad.info/t/replicate-layout-action-plugin/8539
 
 https://github.com/MitjaNemec/Kicad_action_plugins
+
+
+
+## 改为正反均要后需要用全桥
+
+A5988:四路 DMOS 全桥式 PWM 电机驱动器
+
+https://www.allegromicro.com/zh-CN/Products/Motor-Drivers/Brush-DC-Motor-Drivers/A5988
+
+或者TB6612
+
+https://toshiba.semicon-storage.com/us/semiconductor/product/motor-driver-ics/brushed-dc-motor-driver-ics/detail.TB6612FNG.html
+
+或者DRV8833
+
+https://www.ti.com/product/DRV8833
+
+或者用以上两款电机驱动的Breakout Board，方便坏了的话更换。
+
+
+
+或者参考Adafruit TB6612 1.2A DC/Stepper Motor Driver Breakout Board设计自己画
+
+https://www.adafruit.com/product/2448
