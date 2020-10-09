@@ -98,3 +98,14 @@ https://detail.tmall.com/item.htm?id=599634712152
 
 `.3dshapes`文件夹里面放`.step`和 `.wrl`模型文件，再在PCBNEW里面的元件封装属性里面选3D Setting添加3D Model，调整偏移对齐即可。
 
+
+
+## Duplicate PCB sch and layout
+
+参考
+
+https://forum.kicad.info/t/how-to-duplicate-a-pcb-layout-in-kicad-5/12909
+
+https://forum.kicad.info/t/replicate-layout-action-plugin/8539
+
+https://github.com/MitjaNemec/Kicad_action_plugins
