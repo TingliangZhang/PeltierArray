@@ -110,7 +110,9 @@ https://forum.kicad.info/t/replicate-layout-action-plugin/8539
 
 https://github.com/MitjaNemec/Kicad_action_plugins
 
+前提Hierarchical schematics：
 
+https://docs.kicad-pcb.org/5.1/en/eeschema/eeschema.html#hierarchical-schematics
 
 ## 改为正反均要后需要用全桥
 
@@ -133,3 +135,29 @@ https://www.ti.com/product/DRV8833
 或者参考Adafruit TB6612 1.2A DC/Stepper Motor Driver Breakout Board设计自己画
 
 https://www.adafruit.com/product/2448
+
+
+
+
+
+## TD1509配套电路
+
+总体按照8V ~ 18V输入 5V 输出设计
+
+
+
+SS52F肖特基二极管 20V 5A
+
+https://item.szlcsc.com/328975.html
+
+33uH 4.5A功率电感
+
+https://item.szlcsc.com/160864.html
+
+更便宜的选择：5A的33uH
+
+https://item.szlcsc.com/338378.html
+
+330uf/25V过孔电容
+
+https://item.szlcsc.com/2403.html

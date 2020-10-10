@@ -1,0 +1,188 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Me-MEGA2560PRO:TB6612FNG TB6612FNG?
+U 1 1 5F8A1F60
+P 6000 3500
+AR Path="/5F8A1F60" Ref="TB6612FNG?"  Part="1" 
+AR Path="/5F888F89/5F8A1F60" Ref="TB6612FNG1"  Part="1" 
+AR Path="/5F8E0E02/5F8A1F60" Ref="TB6612FNG?"  Part="1" 
+F 0 "TB6612FNG1" H 6000 4615 50  0000 C CNN
+F 1 "TB6612FNG" H 6000 4524 50  0000 C CNN
+F 2 "PeltierArray:DIP-16_617_ELL" H 6000 3500 50  0001 C CNN
+F 3 "" H 6000 3500 50  0001 C CNN
+	1    6000 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male Peltier?
+U 1 1 5F8A1F66
+P 4750 3250
+AR Path="/5F8A1F66" Ref="Peltier?"  Part="1" 
+AR Path="/5F888F89/5F8A1F66" Ref="Peltier2"  Part="1" 
+AR Path="/5F8E0E02/5F8A1F66" Ref="Peltier?"  Part="1" 
+F 0 "Peltier2" H 4858 3431 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 4858 3340 50  0000 C CNN
+F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" H 4750 3250 50  0001 C CNN
+F 3 "~" H 4750 3250 50  0001 C CNN
+	1    4750 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 2800 5250 2950
+Wire Wire Line
+	5250 2950 5500 2950
+Wire Wire Line
+	5150 2900 5150 3050
+Wire Wire Line
+	5150 3050 5500 3050
+Wire Wire Line
+	4950 3250 5500 3250
+Wire Wire Line
+	4950 3350 5250 3350
+Wire Wire Line
+	5250 3350 5250 3150
+Wire Wire Line
+	5250 3150 5500 3150
+$Comp
+L power:GND #PWR?
+U 1 1 5F8A1F74
+P 6600 3450
+AR Path="/5F8A1F74" Ref="#PWR?"  Part="1" 
+AR Path="/5F888F89/5F8A1F74" Ref="#PWR0120"  Part="1" 
+AR Path="/5F8E0E02/5F8A1F74" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0120" H 6600 3200 50  0001 C CNN
+F 1 "GND" H 6605 3277 50  0000 C CNN
+F 2 "" H 6600 3450 50  0001 C CNN
+F 3 "" H 6600 3450 50  0001 C CNN
+	1    6600 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F8A1F7A
+P 5400 3450
+AR Path="/5F8A1F7A" Ref="#PWR?"  Part="1" 
+AR Path="/5F888F89/5F8A1F7A" Ref="#PWR0121"  Part="1" 
+AR Path="/5F8E0E02/5F8A1F7A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0121" H 5400 3200 50  0001 C CNN
+F 1 "GND" H 5405 3277 50  0000 C CNN
+F 2 "" H 5400 3450 50  0001 C CNN
+F 3 "" H 5400 3450 50  0001 C CNN
+	1    5400 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 3350 6600 3350
+Wire Wire Line
+	6600 3350 6600 3450
+Wire Wire Line
+	5500 3350 5400 3350
+Wire Wire Line
+	5400 3350 5400 3450
+Wire Wire Line
+	6500 2650 6700 2650
+Wire Wire Line
+	6500 3250 6700 3250
+Wire Wire Line
+	6500 3150 6700 3150
+Wire Wire Line
+	6500 3050 6700 3050
+Wire Wire Line
+	6500 2950 6700 2950
+Wire Wire Line
+	6500 2850 6700 2850
+Wire Wire Line
+	6500 2750 6700 2750
+$Comp
+L power:+BATT #PWR?
+U 1 1 5F8A1F92
+P 5400 2550
+AR Path="/5F8A1F92" Ref="#PWR?"  Part="1" 
+AR Path="/5F888F89/5F8A1F92" Ref="#PWR0122"  Part="1" 
+AR Path="/5F8E0E02/5F8A1F92" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0122" H 5400 2400 50  0001 C CNN
+F 1 "+BATT" H 5415 2723 50  0000 C CNN
+F 2 "" H 5400 2550 50  0001 C CNN
+F 3 "" H 5400 2550 50  0001 C CNN
+	1    5400 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5F8A1F98
+P 5500 2750
+AR Path="/5F8A1F98" Ref="#PWR?"  Part="1" 
+AR Path="/5F888F89/5F8A1F98" Ref="#PWR0123"  Part="1" 
+AR Path="/5F8E0E02/5F8A1F98" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0123" H 5500 2600 50  0001 C CNN
+F 1 "+5V" V 5515 2878 50  0000 L CNN
+F 2 "" H 5500 2750 50  0001 C CNN
+F 3 "" H 5500 2750 50  0001 C CNN
+	1    5500 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F8A1F9E
+P 5500 2850
+AR Path="/5F8A1F9E" Ref="#PWR?"  Part="1" 
+AR Path="/5F888F89/5F8A1F9E" Ref="#PWR0124"  Part="1" 
+AR Path="/5F8E0E02/5F8A1F9E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0124" H 5500 2600 50  0001 C CNN
+F 1 "GND" V 5505 2722 50  0000 R CNN
+F 2 "" H 5500 2850 50  0001 C CNN
+F 3 "" H 5500 2850 50  0001 C CNN
+	1    5500 2850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5500 2650 5400 2650
+Wire Wire Line
+	5400 2650 5400 2550
+Wire Wire Line
+	4950 2900 5150 2900
+Wire Wire Line
+	4950 2800 5250 2800
+$Comp
+L Connector:Conn_01x02_Male Peltier?
+U 1 1 5F8A1FA8
+P 4750 2800
+AR Path="/5F8A1FA8" Ref="Peltier?"  Part="1" 
+AR Path="/5F888F89/5F8A1FA8" Ref="Peltier1"  Part="1" 
+AR Path="/5F8E0E02/5F8A1FA8" Ref="Peltier?"  Part="1" 
+F 0 "Peltier1" H 4858 2981 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 4858 2890 50  0000 C CNN
+F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" H 4750 2800 50  0001 C CNN
+F 3 "~" H 4750 2800 50  0001 C CNN
+	1    4750 2800
+	1    0    0    -1  
+$EndComp
+Text HLabel 6700 2650 2    50   Input ~ 0
+PWMA
+Text HLabel 6700 2750 2    50   Input ~ 0
+AIN2
+Text HLabel 6700 2850 2    50   Input ~ 0
+AIN1
+Text HLabel 6700 2950 2    50   Input ~ 0
+STBY
+Text HLabel 6700 3050 2    50   Input ~ 0
+BIN1
+Text HLabel 6700 3150 2    50   Input ~ 0
+BIN2
+Text HLabel 6700 3250 2    50   Input ~ 0
+PWMB
+$EndSCHEMATC
