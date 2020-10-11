@@ -318,10 +318,6 @@ Wire Wire Line
 	5000 2250 4850 2250
 Wire Wire Line
 	5000 2150 4850 2150
-Wire Wire Line
-	5000 2050 4850 2050
-Text Label 4850 2050 2    50   ~ 0
-STBY
 Text Label 6150 2050 0    50   ~ 0
 DEBUG
 $Comp
@@ -491,19 +487,6 @@ Wire Wire Line
 Wire Wire Line
 	7050 3650 7750 3650
 Connection ~ 7750 3650
-$Sheet
-S 1500 1000 900  1000
-U 5F888F89
-F0 "TB6612BreakoutBoard" 50
-F1 "TB6612BreakoutBoard.sch" 50
-F2 "PWMA" I L 1500 1100 50 
-F3 "AIN2" I L 1500 1450 50 
-F4 "AIN1" I L 1500 1350 50 
-F5 "STBY" I L 1500 1850 50 
-F6 "BIN1" I L 1500 1550 50 
-F7 "BIN2" I L 1500 1650 50 
-F8 "PWMB" I L 1500 1200 50 
-$EndSheet
 Wire Wire Line
 	1500 1100 1200 1100
 Wire Wire Line
@@ -516,8 +499,6 @@ Wire Wire Line
 	1500 1550 1200 1550
 Wire Wire Line
 	1500 1650 1200 1650
-Wire Wire Line
-	1500 1850 1200 1850
 Text Label 1200 1100 0    50   ~ 0
 PWM1
 Text Label 1200 1200 0    50   ~ 0
@@ -530,8 +511,6 @@ Text Label 1200 1350 0    50   ~ 0
 A1
 Text Label 1200 1450 0    50   ~ 0
 B1
-Text Label 1200 1850 0    50   ~ 0
-STBY
 Wire Wire Line
 	6000 2550 6150 2550
 Wire Wire Line
@@ -676,4 +655,20 @@ Text Label 4800 5050 2    50   ~ 0
 Temp9
 Wire Wire Line
 	6000 4650 6150 4650
+Text GLabel 4600 2050 0    50   Input ~ 0
+STBY
+Wire Wire Line
+	4600 2050 5000 2050
+$Sheet
+S 1500 1000 550  750 
+U 5F888F89
+F0 "TB6612" 50
+F1 "TB6612.sch" 50
+F2 "PWMA" I L 1500 1100 50 
+F3 "AIN2" I L 1500 1450 50 
+F4 "AIN1" I L 1500 1350 50 
+F5 "BIN1" I L 1500 1550 50 
+F6 "BIN2" I L 1500 1650 50 
+F7 "PWMB" I L 1500 1200 50 
+$EndSheet
 $EndSCHEMATC
