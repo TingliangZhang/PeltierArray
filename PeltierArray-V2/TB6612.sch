@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 6
+Sheet 5 6
 Title ""
 Date ""
 Rev ""
@@ -58,7 +58,7 @@ AR Path="/5F8773C4/5F8A1F66" Ref="Peltier?"  Part="1"
 AR Path="/5F8773D8/5F8A1F66" Ref="Peltier?"  Part="1" 
 F 0 "Peltier10" H 3258 3631 50  0000 C CNN
 F 1 "Conn_01x02_Male" H 3258 3540 50  0000 C CNN
-F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" H 3150 3450 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 3150 3450 50  0001 C CNN
 F 3 "~" H 3150 3450 50  0001 C CNN
 	1    3150 3450
 	1    0    0    -1  
@@ -254,7 +254,7 @@ AR Path="/5F8773C4/5F8A1FA8" Ref="Peltier?"  Part="1"
 AR Path="/5F8773D8/5F8A1FA8" Ref="Peltier?"  Part="1" 
 F 0 "Peltier9" H 3258 3181 50  0000 C CNN
 F 1 "Conn_01x02_Male" H 3258 3090 50  0000 C CNN
-F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" H 3150 3000 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 3150 3000 50  0001 C CNN
 F 3 "~" H 3150 3000 50  0001 C CNN
 	1    3150 3000
 	1    0    0    -1  
