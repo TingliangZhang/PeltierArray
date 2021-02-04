@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name PeltierArray-cache)(type Legacy)(uri ${KIPRJMOD}/PeltierArray-cache.lib)(options "")(descr ""))
+)
